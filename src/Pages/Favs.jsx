@@ -1,6 +1,5 @@
 import Card from '../Components/Card';
 import { useGlobalContext } from '../Components/utils/global.context';
-import { useState } from 'react';
 
 const Favs = () => {
   const { state, dispatch } = useGlobalContext();
